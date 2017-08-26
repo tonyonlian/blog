@@ -1,0 +1,16 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      .
+      Content by <a href="https://github.com/tonyonlian" target="_blank">yongliang</a>
+        <span style="color:#ffffff">&nbsp|&nbsp&nbsp</span><span style="display: inline;" id="busuanzi_container_site_pv">您是本站第 <span id="busuanzi_value_site_pv" font="微软雅黑" style="color:white"></span> 个访客</span>
+    </div>
+  </div>
+ 
+</footer>

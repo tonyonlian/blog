@@ -1,0 +1,39 @@
+<header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <nav id="upper-nav" class="inner">
+      <a id="main-nav-toggle" class="nav-icon"></a>
+      <div class="sub-nav">
+        <% if (theme.rss){ %>
+          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+        <% } %>
+        <% if (theme.github){ %>
+          <a id="nav-github" class="nav-icon" href="<%- theme.github %>"></a>
+        <% } %>
+      </div>
+    </nav>
+    <div id="header-title">
+      <% if (theme.blog_title){ %>
+        <h1 id="blog-title-wrap">
+          <a href="/" id="blog-title"><%= theme.blog_title %></a>
+        </h1>
+      <% } %>
+    </div>
+    <div id="contenedor">
+      <ul class="cube">
+        <li class="cara"><%= theme.logo_title %></li>
+        <li class="cara">T</li>
+        <li class="cara">E</li>
+        <li class="cara">A</li>
+        <li class="cara">F</li>
+        <li class="cara">G</li>
+      </ul>
+    </div>
+    <nav id="main-nav">
+      <% for (var i in theme.menu){ %>
+        <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } %>
+      <a class="main-nav-link st-search-show-outputs">Search</a>
+    </nav>
+  </div>
+</header>

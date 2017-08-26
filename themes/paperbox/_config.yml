@@ -1,0 +1,38 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+#rss: /atom.xml
+github: https://github.com/tonyonlian
+logo_title: MyLogo
+blog_title: TongYL's Blog
+
+
+# Content
+excerpt_link: Read More
+fancybox: true
+mathjax: true
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- tag
+- archive
+
+# Miscellaneous
+wx_block: false
+google_analytics:
+favicon: /img/favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# Duoshuo
+duoshuo_shortname:
+
+
+# Swiftype Search
+swiftype_key:
