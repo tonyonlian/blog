@@ -93,7 +93,7 @@ numChildren = 0
 6. 更新节点目录数据
 
 ```bash
-zkshell: 14] set /zk_test junk
+[zkshell: 14] set /zk_test junk
 cZxid = 5
 ctime = Fri Jun 05 13:57:06 PDT 2009
 mZxid = 6
@@ -122,7 +122,7 @@ numChildren = 0
 
 7. 删除节点目录
 
-```
+```bash
 [zkshell: 16] delete /zk_test
 [zkshell: 17] ls /
 [zookeeper]
