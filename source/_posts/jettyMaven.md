@@ -66,7 +66,7 @@ Jetty默认的端口是8080 ，命令行可以修改运行端口：mvn –Djetty
 - 自动热部署
 Jetty的自动热部署命令行方式：mvn –Djetty.ScanIntervalSeconds=10 jetty:run。也可以在pom.xml文件中配置,配置如下:
 
-```
+```xml
 <plugin>
   ...
    <configuration>
@@ -102,7 +102,7 @@ Jetty插件的contextPath 的默认值是 /, 在pom.xml文件可以对Web应用�
 	  <webApp>
 		<contextPath>/${project.artifactId}</contextPath>
 	</webApp>
- </confi
+ </configuration>
 
 ```
 ${project.artifactId} 引用了 <artifactId> 节点的值，即项目的名称。
