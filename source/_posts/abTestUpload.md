@@ -112,7 +112,7 @@ boundary=----WebKitFormBoundaryM1tLdAWapR8WCJSe
 ```
 注意“=” 后面是紧跟着的四条短线（-）
 
-2. 构造abpost.txt文件内容
+2. 2.构造abpost.txt文件内容
 
 这个文件可放在ab命令使用的当前目录，这样就按照上面的写法，作为p参数。先贴出abpost.txt内容，后面再做解释。
 
