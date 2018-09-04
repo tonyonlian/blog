@@ -1,5 +1,6 @@
 ---
 title: hapijs 框架的权限验证 
+date: 2017-08-28 11:57:00
 tags: node
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: zookeeper客户端命令的使用
+date: 2018-05-04 15:35:00
 tags: java
 ---
 

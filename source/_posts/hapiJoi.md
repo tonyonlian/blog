@@ -1,5 +1,6 @@
 ---
 title: 验证模块joi介绍
+date: 2017-08-18 22:31:00
 tags: node 
 ---
 &emsp;&emsp;joi是nodej的一个工具模块，主要用于JavaScript对象的校验。它是一种简单易用的javacript对象约束描述语言，可以轻松解决nodejs开发中的各种参数的校验。
