@@ -270,10 +270,10 @@ a506a2986a64d to e2b8c9c481a1e0830bf05559feb72ea650ee7f68
 
 - 解决的方法：在github的个人设置中，设置好自己的姓名 。这个环节很重要，若不设置姓名，会出现一些一些意想不到的错误，
 
-5.3 [ERROR] Failed to execute goal com.github.github:site-maven-plugin:0.12:site (default) on project parent: Error retrieving user info: Not Found (404) -> [Help 1]
+5.3 Error creating blob: Received fatal alert: protocol_version -> [Help 1]
 
 - 解决的方法：使用jdk1.8 或修改jdk1.7的协议版本为高版本
-- 
+ 
 
 #### 6 使用github仓库中的jar包
 
