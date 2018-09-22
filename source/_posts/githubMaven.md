@@ -8,7 +8,7 @@ tags: java
 
 
 #### 1.创建仓库
-首先在你的github上创建一个maven-repo,创建一个README.md，如清单1.1所示（不然后需mvn clean deploy 会报409错误）
+首先,在你的github上创建一个maven-repo,创建一个README.md，如清单1.1所示（不然后需mvn clean deploy 会报409错误）
 
 清单1.1
 
