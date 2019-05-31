@@ -1,7 +1,7 @@
 ---
 title: 关于mysql的timestamp类型的使用及问题
 date: 2019-05-31 10:46:00
-tags: mongodb
+tags: mysql
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在发布版本的时候，脚本服务程序报出一个异常：java.sql.SQLException: Value '0000-00-00 00:00:00' can not be represented as java.sql.Timestamp。看到这个异常后心里想这是什么鬼呢？在测试环境上跑的好好的程序，发到生产环境就开始搞事情了，真是不让人省心的代码呀。
