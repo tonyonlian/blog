@@ -1,5 +1,5 @@
----解决issue make: *** [Release/obj.target/fibers/src/fibers.0] Error 1 
-title: 验证模块joi介绍
+---
+title: 解决issue make： *** [Release/obj.target/fibers/src/fibers.0] Error 1 
 date: 2019-06-21 22:31:00
 tags: node 
 ---
