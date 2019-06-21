@@ -5,7 +5,7 @@ tags: node
 ---
 
 
-1. 问题：在centos6.5的ecs上执行node install保存如下：
+1. 问题：在centos6.5的ecs上执行node install保存如下:
 
 make: *** [Release/obj.target/fibers/src/fibers.0] Error 1
 make: leaving directory
