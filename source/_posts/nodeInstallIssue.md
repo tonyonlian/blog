@@ -5,14 +5,14 @@ tags: node
 ---
 
 
-1. 问题：在centos6.5的ecs上执行node install保存如下:
+1. 问题：在centos6.5的ecs上执行node install命令，报错如下:
 
 make: *** [Release/obj.target/fibers/src/fibers.0] Error 1
 make: leaving directory
 gyp ERR! build error
 gyp ERR! Error:`make` failed with exit code:2
 
-![gCLXdR.png](https://t1.picb.cc/uploads/2019/06/21/gCLXdR.png)
+![图1.错误堆栈](https://t1.picb.cc/uploads/2019/06/21/gCLXdR.png)
 
 2. 解决办法：
 
