@@ -7,7 +7,7 @@ tags: java
 
 >问题：  Cloud not get resource from pool
 
-![gOvyMj.png](https://t1.picb.cc/uploads/2019/08/05/gOvyMj.png)
+![图片1:异常](https://t1.picb.cc/uploads/2019/08/05/gOvyMj.png)
 
 
 >原因
