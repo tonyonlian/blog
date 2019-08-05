@@ -14,7 +14,7 @@ tags: java
 
 1.开启事务配置,使用过程，方法上未使用@Transactional的注解。
 
-```
+```xml
 //开启事务配置
  <property name="enableTransactionSupport" value="true"></property>
 
@@ -46,7 +46,7 @@ tags: java
 
 代码实现
 
-```
+```java
 //代码实现
 
 @Component
