@@ -107,7 +107,7 @@ org.springframework.data.redis.core.RedisTemplate
 
 //跟踪释放连接的代码 
 
-//事务开启 connHolder 不为null,get方法为注解@Transactional，connHolder.isTransactionSyncronisationActive()方法返回false
+//事务开启 connHolder 不为null,get方法没有注解@Transactional，connHolder.isTransactionSyncronisationActive()方法返回false
 //事务开启 isConnectionTransactional(conn, factory)为true，没有配置 @Transactional(readOnly = true)，TransactionSynchronizationManager.isCurrentTransactionReadOnly()为false
 //经过层层判断，未进入任何一个if方法块中，也没调用任何回收redis连接的方法
   public static void releaseConnection(RedisConnection conn, RedisConnectionFactory factory) {
