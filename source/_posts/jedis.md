@@ -12,7 +12,30 @@ tags: java
 
 >原因
 
-1.开启事务配置,使用过程，方法上未使用@Transactional的注解。
+
+1.使用的组件
+pom.xml
+
+```xml
+
+     <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>1.8.3.RELEASE</version><!--$NO-MVN-MAN-VER$-->
+        </dependency>
+
+```
+
+2.配置
+
+开启事务配置,使用过程，方法上未使用@Transactional的注解。
 
 ```xml
 //开启事务配置
@@ -44,7 +67,7 @@ tags: java
 
 ```
 
-代码实现
+3.分析代码
 
 ```java
 //代码实现
@@ -139,6 +162,8 @@ org.springframework.data.redis.core.RedisTemplate
 
 
 > 综上所述，当spring-data-redis 配置事务的时候，方法使用中不加注解@Transactional，会出现redis连接无法回收，资源池pool 资源耗尽，报异常：Cloud not get resource from pool
+
+
 
 > 解决方法：声明两个RedisTemplate实例
 
