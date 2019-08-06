@@ -15,7 +15,7 @@ tags: mongodb
 
 下图显示了使用索引选择和排序匹配文档的查询:
 
-![image](https://i.imgur.com/oF4pR9U.png)
+
 
 
 从根本上说，MongoDB中的索引与其他数据库系统中的索引相似。MongoDB在集合级别定义索引，并支持MongoDB集合中文档的任何字段或子字段的索引
